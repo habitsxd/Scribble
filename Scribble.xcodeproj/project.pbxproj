@@ -13,6 +13,7 @@
 		8B86E3962923FEB9005A7F7C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B86E3942923FEB9005A7F7C /* Main.storyboard */; };
 		8B86E3982923FEBC005A7F7C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B86E3972923FEBC005A7F7C /* Assets.xcassets */; };
 		8B86E39B2923FEBC005A7F7C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B86E3992923FEBC005A7F7C /* LaunchScreen.storyboard */; };
+		8B86E3A32923FF42005A7F7C /* ScribbleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B86E3A22923FF42005A7F7C /* ScribbleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		8B86E3972923FEBC005A7F7C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8B86E39A2923FEBC005A7F7C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8B86E39C2923FEBC005A7F7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B86E3A22923FF42005A7F7C /* ScribbleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScribbleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				8B86E38E2923FEB9005A7F7C /* AppDelegate.swift */,
 				8B86E3902923FEB9005A7F7C /* SceneDelegate.swift */,
 				8B86E3922923FEB9005A7F7C /* ViewController.swift */,
+				8B86E3A22923FF42005A7F7C /* ScribbleView.swift */,
 				8B86E3942923FEB9005A7F7C /* Main.storyboard */,
 				8B86E3972923FEBC005A7F7C /* Assets.xcassets */,
 				8B86E3992923FEBC005A7F7C /* LaunchScreen.storyboard */,
@@ -140,6 +143,7 @@
 			files = (
 				8B86E3932923FEB9005A7F7C /* ViewController.swift in Sources */,
 				8B86E38F2923FEB9005A7F7C /* AppDelegate.swift in Sources */,
+				8B86E3A32923FF42005A7F7C /* ScribbleView.swift in Sources */,
 				8B86E3912923FEB9005A7F7C /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
