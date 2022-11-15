@@ -44,6 +44,10 @@ class ScribbleView: UIView {
         color.set()
         path.fill()
         
+        let path2 = UIBezierPath(arcCenter: CGPoint(x: 250, y: 250), radius: 50, startAngle: 0, endAngle: CGFloat(2 * Double.pi), clockwise: false)
+        
+        path2.stroke()
+        
     }
 
 
